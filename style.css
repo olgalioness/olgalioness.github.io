@@ -48,17 +48,17 @@ ul {
 	text-align: right;
 	margin: 0px;
 }
-/* menu*/
-.menu	{
+/* nav*/
+.nav	{
 	position: absolute;
 	margin-top: 160px;
 	width: 1145px;
 	}
-.menu ul {
+.nav ul {
 	margin: auto;
 	padding: 0px;
 }
-.menu li {
+.nav li {
 	border-right: 1px solid #5f6973;
 	float: left;
 	height: 54px;
@@ -67,21 +67,21 @@ ul {
 	display: flex;
   	align-items: center;
 }
-.menu li:last-child {
+.nav li:last-child {
 	border: hidden;
 }
-.menu li a {	
+.nav li a {	
 	text-decoration: none;
 	color:#5f6973;
 	font-size: 23px;
 }
-.menu li:hover {
+.nav li:hover {
 	background: #7bc3d5;
 }
-.menu ul li:active {
+.nav ul li:active {
 	background: #7bc3d5;
 }
-/* menu end */
+/* nav end */
 /* content */
 .sidebar,.info, .info_warp, .comment {
 	border-radius: 5px;
