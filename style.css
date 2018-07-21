@@ -196,12 +196,16 @@ ul {
 	border-radius:  5px;
 	float: right;
 }
-.info_warp {
-	height: 481px;
-}
 .info_warp p {
 	color: #484848;
 	font-size: 25px;
 	margin-top: 35px;
 	margin-left: 28px;
+}
+.info_warp {
+	height: 481px;
+}
+.comment {
+	height: 319px;
+	margin-bottom: 93px;
 }
