@@ -199,3 +199,9 @@ ul {
 .info_warp {
 	height: 481px;
 }
+.info_warp p {
+	color: #484848;
+	font-size: 25px;
+	margin-top: 35px;
+	margin-left: 28px;
+}
