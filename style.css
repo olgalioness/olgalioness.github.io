@@ -191,6 +191,7 @@ ul {
 	display: block;
 }
 .info_warp ,.comment {
+	height: 481px;
 	width: 78%px;
 	clear: left;
 	border-radius:  5px;
