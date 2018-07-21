@@ -9,13 +9,13 @@ ul {
 	list-style: none;
 	}
 .main	{
-margin: auto;
-height: auto;
-width: 1145px;
+	margin: auto;
+	height: auto;
+	width: 1145px;
 }
 .header	{
-background-color: #fff;
-height: 214px;
+	background-color: #fff;
+	height: 214px;
 }
 .logo	{
 	width: 244px;
@@ -28,10 +28,9 @@ height: 214px;
 }
 .cal	{
 	position: absolute;
-margin-top: 100px;
-margin-left: 513px
+	margin-top: 100px;
+	margin-left: 513px
 }
-
 .cal a:link {
 	color: #eb5825;
 	font-size: 23px;
@@ -46,8 +45,8 @@ margin-left: 513px
 	font-weight: lighter ;
 }
 .tel p {
-text-align: right;
-margin: 0px;
+	text-align: right;
+	margin: 0px;
 }
 /* menu*/
 .menu	{
@@ -58,7 +57,6 @@ margin: 0px;
 .menu ul {
 	margin: auto;
 	padding: 0px;
-
 }
 .menu li {
 	border-right: 1px solid #5f6973;
@@ -70,9 +68,8 @@ margin: 0px;
   	align-items: center;
 }
 .menu li:last-child {
-border: hidden;
+	border: hidden;
 }
-
 .menu li a {	
 	text-decoration: none;
 	color:#5f6973;
@@ -84,10 +81,8 @@ border: hidden;
 .menu ul li:active {
 	background: #7bc3d5;
 }
-
 /* menu end */
 /* content */
-
 .sidebar,.info, .info_warp, .comment {
 	border-radius: 5px;
 	background-color: #fff;
@@ -102,7 +97,6 @@ border: hidden;
 	float: left;
 	font-size: 26px;
 }
-
 .sidebar {
 	height: 470px;
 	width: 20%;
@@ -123,14 +117,12 @@ border: hidden;
 .sidebar li {
 	margin: 15px 0px;
 }
-
 .sidebar a:link {
 	color: #9d9d9d;
 }
 .sidebar a:hover {
 	color: #eb5825;
 }
-
 .info	{
 	height: 610px;
 	width: 78%;
@@ -143,7 +135,6 @@ border: hidden;
 	margin: 30px 26px; 
 	font-weight: 500;
 }
-
 .info_img {
 	background: url('img/img-okno.png') no-repeat;
 	width:  272px;
@@ -172,7 +163,7 @@ border: hidden;
 	color: #484848;
 }
 .info_container_wrap p {
-color: #484848;
+	color: #484848;
 }
 .info_container_wrap span {
 	color: #484848;
@@ -184,7 +175,6 @@ color: #484848;
 	width: 474px;
 	margin: 25px 0px ;
 }
-
 .info_calc {
 	height: 40px;
 	width: 313px;
@@ -195,18 +185,14 @@ color: #484848;
   	border-radius:  5px;
   	margin-bottom: 10px;
 }
-
 .info_calc a {
 	text-decoration: none;
 	color: #fff;
 	display: block;
 }
-
-
-
-
-
 .info_warp ,.comment {
+	width: 878px;
 	clear: left;
-border-radius:  5px;
+	border-radius:  5px;
+	float: right;
 }
