@@ -186,30 +186,106 @@ ul {
   	margin-bottom: 10px;
 }
 .info_calc a {
-	text-decoration: none;
-	color: #fff;
-	display: block;
-}
-.info_warp ,.comment {
-	width: 78%;
-	clear: left;
-	border-radius:  5px;
-	float: right;
+ text-decoration: none;
+ color: #fff;
+ display: block;
 }
 .info_warp {
-	height: 481px;
-	margin-bottom: 80px;
+ float: right;
+ height: 550px;
+ width: 78%;
+ border-radius: 5px;
+}
+.info_forma h1 {
+ font-size: 26px;
+ margin: 38px 26px;
+ margin-bottom: 20px;
+}
+.img_forma {
+ background: url('img/forma1.png') no-repeat;
+ height: 57px;
+ width: 65px;
+ margin-left: 26px;
+ float: left;
+}
+.info_forma > p {
+ font-size: 16px;
+ width: 700px;
+ margin-top: 0px;
+ margin-right: 65px;
+ float: right;
+}
+.img_shape {
+ background: url('img/shape1.png') no-repeat;
+ height: 57px;
+ width: 65px;
+ margin-left: 26px;
+ margin-top: 21px;
+ float: left;
+}
+.info_shape > p {
+ font-size: 16px;
+ width: 700px;
+ margin-right: 65px;
+ margin-top: 0px;
+ float: right;
+}
+.warp_container_f h1 {
+ font-size: 26px;
+ margin: 38px 26px;
+ float: left;
+ margin-top: 35px;
+ margin-bottom: 0px;
 }
 
-.info_warp p {
-	color: #484848;
-	font-size: 25px;
-	margin-top: 35px;
-	margin-left: 28px;
-	
+
+.warp_container_f ol{
+
+list-style-type: none;
+counter-reset: number;
+float: left;
+padding: 0px;
+margin-left: 26px;
+list-style-position: outside;
 }
 
+.warp_container_f ol li{
+font-size: 14px;
+width: 800px;
+margin-left: 57px;
+margin-top: 15px;
+
+}
+.warp_container_f ol li:before {
+
+color: #383838;
+display: inline-block;
+text-align: center;
+line-height: 22px;
+width: 34px;
+height: 34px;
+counter-increment: number;
+content:counter(number);
+border: 2px solid #383838;;
+ -moz-border-radius: 50px;
+ -webkit-border-radius: 50px;
+ border-radius: 50px;
+justify-content: center;
+ display: flex;
+   align-items: center;
+   list-style-position: outside;
+ position: absolute;
+  margin-left: -57px;  
+  margin-top: 10px;
+}
 .comment {
-	height: 319px;
-	margin-bottom: 93px;
-}
+ margin-top: 60px;
+ float: right;
+ }
+.comment h1 {
+ float: left;
+} 
+.comment_warp {
+ width: 78%;
+ height: 320px;
+ float: right;
