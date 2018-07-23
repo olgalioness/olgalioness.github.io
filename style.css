@@ -204,7 +204,7 @@ border: hidden;
 }
 .info_warp {
  float: right;
- height: 480px;
+ height: 550px;
  width: 78%;
  border-radius: 5px;
 }
@@ -215,38 +215,38 @@ border: hidden;
 }
 .img_forma {
  background: url('img/forma1.png') no-repeat;
- height: 57px;
- width: 65px;
+ height: 53px;
+ width: 55px;
  margin-left: 25px;
  float: left;
 }
 .info_forma > p {
  font-size: 16px;
- width: 700px;
+ width: 750px;
  margin-top: 0px;
- margin-right: 65px;
+ margin-right: 25px;
  float: right;
 }
 .img_shape {
  background: url('img/shape1.png') no-repeat;
- height: 57px;
- width: 65px;
- margin-left: 26px;
- margin-top: 21px;
+ height: 59px;
+ width: 49px;
+ margin-left: 25px;
+ margin-top: 26px;
  float: left;
 }
 .info_shape > p {
  font-size: 16px;
- width: 700px;
- margin-right: 65px;
+ width: 750px;
+ margin-right: 25px;
  margin-top: 0px;
  float: right;
 }
 .warp_container_f h1 {
  font-size: 25px;
- margin: 38px 26px;
+ margin: 37px 28px;
  float: left;
- margin-top: 35px;
+ margin-top: 20px;
  margin-bottom: 0px;
 }
 
@@ -262,7 +262,7 @@ list-style-position: outside;
 }
 
 .warp_container_f ol li{
-font-size: 14px;
+font-size: 16px;
 width: 800px;
 margin-left: 57px;
 margin-top: 15px;
@@ -301,3 +301,4 @@ justify-content: center;
  width: 78%;
  height: 320px;
  float: right;
+
