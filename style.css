@@ -204,20 +204,20 @@ border: hidden;
 }
 .info_warp {
  float: right;
- height: 550px;
+ height: 480px;
  width: 78%;
  border-radius: 5px;
 }
 .info_forma h1 {
- font-size: 26px;
- margin: 38px 26px;
+ font-size: 25px;
+ margin: 35px 26px;
  margin-bottom: 20px;
 }
 .img_forma {
  background: url('img/forma1.png') no-repeat;
  height: 57px;
  width: 65px;
- margin-left: 26px;
+ margin-left: 25px;
  float: left;
 }
 .info_forma > p {
@@ -243,7 +243,7 @@ border: hidden;
  float: right;
 }
 .warp_container_f h1 {
- font-size: 26px;
+ font-size: 25px;
  margin: 38px 26px;
  float: left;
  margin-top: 35px;
