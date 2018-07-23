@@ -290,15 +290,3 @@ justify-content: center;
   margin-left: -57px;  
   margin-top: 10px;
 }
-.comment {
- margin-top: 60px;
- float: right;
- }
-.comment h1 {
- float: left;
-} 
-.comment_warp {
- width: 78%;
- height: 320px;
- float: right;
-}
