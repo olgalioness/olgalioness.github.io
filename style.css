@@ -179,6 +179,9 @@ border: hidden;
 	color: #484848;
 	font-size: 20px;
 }
+.info_container_wrap a {
+	color: #9d9d9d;
+}
 .color_img {
 	background: url('img/color.png') no-repeat;
 	height: 60px;
@@ -199,7 +202,7 @@ border: hidden;
 
 .info_calc a {
 	text-decoration: none;
-	color: #fff;
+	color: #ffffff;
 	display: block;
 }
 .info_warp {
