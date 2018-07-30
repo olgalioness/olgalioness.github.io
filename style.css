@@ -179,7 +179,7 @@ border: hidden;
 	color: #484848;
 	font-size: 20px;
 }
-.info_container_wrap a {
+.info_container_wrap > a {
 	color: #9d9d9d;
 }
 .color_img {
